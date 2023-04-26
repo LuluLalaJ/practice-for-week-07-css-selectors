@@ -1,6 +1,40 @@
 /* Your code here */
 
+#page-title {
+    font-weight: bold;
+}
+
+.pagenum {
+    position: absolute;
+    right: 10px;
+    font-size: small;
+}
+
+p {
+    text-align: justify;
+    margin: 0, 0.75em;
+}
+
+pre {
+    width: fit-content;
+    margin: auto;
+}
+
+:link {
+    text-decoration: none;
+}
+
+:any-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+pre :link {
+    color: black
+
+}
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
+
 
 .noin {
     text-indent: 0em;
